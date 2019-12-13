@@ -101,6 +101,26 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+nav {
+  border: 1px solid teal;
+  padding: 1em;
+}
+.links a {
+  float: right;
+  margin-right: 5em;
+}
+a {
+  margin-left: 5em;
+  text-decoration: none;
+  font-size: 1.5;
+}
+.funBus-logo a {
+  float: left;
+  padding-top: 1em;
+}
+.links {
+  padding: 2em;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
@@ -157,4 +177,11 @@ img {
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+}
+.image {
+  margin-left: 7em;
+  padding-top: 0;
+}
+hr {
+  border-top: 2px dashed grey;
 }
