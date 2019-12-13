@@ -1,23 +1,30 @@
 // mixing created for button here.
-        .button(){
-            text-align: center;
-           background-color: teal;
-            margin:0 10 20 px;
-            cursor:pointer ;
-            width:150px;
-            height: 30px;
-            font-size: 1.5rem;
-            border-radius: 20px;
-            padding:10px  10px;
-          
+        
+
+        .custom-button(@text-align, @bg-color){
+            text-align:@text-align;
+            background-color: @bg-color;
+             margin:0 10 20 px;
+             cursor:pointer ;
+             width:150px;
+             height: 30px;
+             font-size: 1.5rem;
+             border-radius: 20px;
+             padding:10px  10px;
+
+
 
         }
+
+
+
+
 
 
         .btn{
 
            
-            .button();
+        .custom-button(center, teal)
         
         
         }
